@@ -1,0 +1,37 @@
+#container {display:flex;
+            flex-direction: column;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50% , -50%);
+}
+
+#orng-div {   width:300px;
+              height: 460px ;
+              background-color:hsl(31, 77%, 52%); 
+              border-radius: 15px 0px 0px 15px ;
+              display:flex;
+              flex-direction: column;
+}
+.icon { position: absolute;
+        left: 55px;
+        top: 40px;        
+}
+.h1 {     color: white;
+          margin:110px 0px 12px 55px ;    
+}
+.p {  color: white;
+      margin: 30px 80px 0px 55px ;
+      position: absolute;
+      font-size: 15px;
+      line-height: 23px;
+}
+ .buttton {  border-width: 0px;
+             background-color: white;
+             border-radius: 25px;
+             width: 160px;
+             height:45px; 
+             font-size: 16px;  
+             color:hsl(31, 77%, 52%);
+             margin: 220px 80px 0px 55px ;            
+}

@@ -7,7 +7,7 @@
             transform:translate(-50% , -50%);
             font-family:'Lexend Deca';
 }
-
+                /*=------ for first card (orange) --------*/
 #box-1 {      width:300px;
               height: 470px ;
               background-color:hsl(31, 77%, 52%); 
@@ -79,11 +79,56 @@
             color:hsl(184, 100%, 22%);
             margin: 220px 80px 0px 55px ;}
 
-            /*=------ for secend card (Very dark cyan) --------*/
+            /*=------ end of Third card (Very dark cyan) --------*/
 #box-3 {     width:300px;
              height: 470px ;
              background-color:hsl(179, 100%, 13%); 
              border-radius: 0px 15px 15px 0px ;
              display:flex;
              flex-direction: column;
-}      
+}     
+#icon-3 { position: fixed;
+        margin-left:55px;  
+        top: 40px;  }
+        
+#h1-3 { color: white;
+      margin:110px 0px 12px 55px ; 
+      font-family: "Big Shoulders Display";
+      font-weight: 700;
+      font-size:38px;  }
+                             
+#p-3 {  color: white;
+      margin: 195px 0px 0px 52px ;
+      position: absolute;
+      font-size: 15px;
+      line-height: 23px;
+      font-family: "Lexend Deca";
+      font-weight: 400;}
+        
+#button-3 {  border-width: 0px;
+          background-color: white;
+          border-radius: 25px;
+          width: 160px;
+          height:45px; 
+          font-size: 16px;  
+          color:hsl(184, 100%, 22%);
+          margin: 78px 100px 0px 0px ;    
+}
+#buttton:hover { transition:0.8s;
+                 background-color: hsl(31, 77%, 52%);
+                 color: white;
+                 border:3px;
+                 border: 2px solid white;
+}
+#button-2:hover{ transition:0.8s;
+            background-color: hsl(184, 100%, 22%);
+            color: white;
+            border:3px;
+            border: 2px solid white;
+}
+#button-3:hover{transition:0.8s;
+                background-color: hsl(179, 100%, 13%);
+                color: white;
+                border:3px;
+                border: 2px solid white;
+}
